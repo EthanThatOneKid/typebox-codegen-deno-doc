@@ -1,6 +1,7 @@
 # typebox-codegen-deno-doc
 
-Code generation for TypeBox types from Deno Doc API.
+Code generation for [TypeBox](https://github.com/sinclairzx81/typebox) types
+from the [Deno Doc API](https://jsr.io/@deno/doc).
 
 ## Develop
 
