@@ -1,0 +1,29 @@
+{
+  "lock": false,
+  "tasks": {
+    "generate": "deno -A lib/deno-doc/codegen/codegen.ts && deno fmt lib/deno-doc/generated/**/*.ts",
+    "test": "deno test -A",
+    "outdated": "deno outdated --update --latest"
+  },
+  "imports": {
+    "#/": "./",
+    "@comunica/query-sparql": "npm:@comunica/query-sparql@^4.1.0",
+    "@comunica/types": "npm:@comunica/types@^4.1.0",
+    "@deno/doc": "jsr:@deno/doc@^0.168.0",
+    "@sinclair/typebox": "npm:@sinclair/typebox@^0.34.28",
+    "@std/assert": "jsr:@std/assert@^1.0.8",
+    "@std/collections": "jsr:@std/collections@^1.0.9",
+    "@std/fs": "jsr:@std/fs@^1.0.8",
+    "@std/text": "jsr:@std/text@^1.0.9",
+    "@types/n3": "npm:@types/n3@^1.21.1",
+    "@types/sparqljs": "npm:@types/sparqljs@^3.1.12",
+    "jsonld": "npm:jsonld@^8.3.3",
+    "n3": "npm:n3@^1.23.1",
+    "sparqljs": "npm:sparqljs@^3.7.3",
+    "ts-morph": "npm:ts-morph@^25.0.0",
+    "typescript": "npm:typescript@^5.7.2"
+  },
+  "lint": {
+    "exclude": ["./lib/testdata/"]
+  }
+}
