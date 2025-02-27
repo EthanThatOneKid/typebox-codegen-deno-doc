@@ -26,6 +26,7 @@ deno task outdated
 ## Prior art
 
 - <https://github.com/sinclairzx81/typebox-codegen>
+- <https://github.com/FartLabs/typescript-type-introspector>
 
 ---
 
